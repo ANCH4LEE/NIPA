@@ -54,7 +54,7 @@ docker-compose up -d
 npm start
 ```
 - หากเกิดปัญหา error
-- ```bash 
+```bash 
 npm install
 npm start
 ```
