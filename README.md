@@ -53,4 +53,9 @@ docker-compose up -d
 ```bash 
 npm start
 ```
+- หากเกิดปัญหา error
+- ```bash 
+npm install
+npm start
+```
 - สำหรับ React เปิด localhost:3000 
