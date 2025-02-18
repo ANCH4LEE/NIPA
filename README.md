@@ -13,6 +13,7 @@ PGADMIN_DEFAULT_EMAIL=admin123@gmail.com
 PGADMIN_DEFAULT_PASSWORD=password
 PGADMIN_PORT=5055
 ```
+
 - กด save File จากนั้น Run Folder ด้วย Docker ใช้คำสั่ง
 ```bash
 docker-compose build
