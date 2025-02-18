@@ -31,7 +31,7 @@ docker-compose up -d
 APP_PORT=8080
 
 # Database
-POSTGRES_HOST=192.168.1.109 
+POSTGRES_HOST=192.168.1.109 #เปลี่ยน IPv4 บรรทัดนี้
 POSTGRES_PORT=5432
 POSTGRES_USER=ticket_user
 POSTGRES_PASSWORD=ticket_password
