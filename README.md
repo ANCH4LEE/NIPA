@@ -48,7 +48,6 @@ docker-compose up -d
 - เพิ่ม Proxy สำหรับเชื่อมต่อกับฝั่ง Backend ในไฟล์ package.json
 ```bash 
 "proxy": "http://localhost:8080"
-}
 ```
 - Run Server
 ```bash 
