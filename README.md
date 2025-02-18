@@ -1,7 +1,7 @@
 ﻿# 🔌วิธีติดตั้งและใช้งาน
 - ทำการเปิด Folder database จาก [Database](database)
 - จะต้องเพิ่มไฟล์ .env และใส่ข้อมูลจากด้านล่าง
-  ```bash 
+```bash 
 # PostgreSQL Environment Variables
 POSTGRES_DB=ticket
 POSTGRES_USER=ticket_user
@@ -45,8 +45,13 @@ docker-compose up -d
 ```
 - สำหรับ PostgreSQL เปิด localhost:5050
 - ทำการเปิดโฟลเดอร์ helpdesk จาก [Front](front/helpdesk)
+- เพิ่ม Proxy สำหรับเชื่อมต่อกับฝั่ง Backend ในไฟล์ package.json
+```bash 
+"proxy": "http://localhost:8080"
+}
+```
 - Run Server
 ```bash 
 npm start
 ```
-- เปิด localhost:3000 สำหรับ React
+- สำหรับ React เปิด localhost:3000 
