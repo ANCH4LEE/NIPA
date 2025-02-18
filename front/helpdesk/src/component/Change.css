@@ -1,0 +1,60 @@
+.status-pending {
+    background-color: #fff894;
+    border: #fff894;
+    color: #736c04;
+  }
+  
+  .status-accepted {
+    background-color: #c5edf5;
+    border: #c5edf5;;
+    color: rgb(15, 113, 130);;
+  }
+  
+  .status-resolved {
+    background-color: #b5e8c8;
+    border: #b5e8c8;
+    color: #145e2f;
+  }
+  
+  .status-rejected {
+    background-color: #ed5f5f;
+    border: #ed5f5f;
+    color: #ffffff;
+  }
+
+  .sidebar ul li {
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .sidebar ul li.active {
+    background-color: #5758a6; 
+    color: rgb(255, 255, 255) !important; 
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .select-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .select-container select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 30px;
+  }
+  
+  .select-container::after {
+    content: '\25BC'; /* Unicode ลูกศร ▼ */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #696b6b9a;
+  }
+  
+  
+  
